@@ -1,0 +1,20 @@
+# خادم + خط المعالجة (Python 3.10–3.12 مُوصى به)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.5
+numpy
+opencv-python-headless
+requests
+matplotlib
+torch
+ultralytics>=8.3
+faster-whisper>=1.0
+paddlepaddle>=3.0         # نسخة CPU تكفي لـ OCR الشرائح (أضمن على Colab/الخوادم)
+paddleocr>=3.0
+transformers>=4.44
+accelerate
+sentence-transformers
+chromadb>=0.5
+yt-dlp
+gdown
